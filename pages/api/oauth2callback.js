@@ -13,7 +13,7 @@ export default async function handler(req, res) {
   const oauth2Client = new google.auth.OAuth2(
     process.env.GOOGLE_CLIENT_ID,
     process.env.GOOGLE_CLIENT_SECRET,
-    "https://your-app.vercel.app/api/oauth2callback" // Make sure this matches the one in your Google Console
+    "https://ai-for-shorts.vercel.app/api/oauth2callback" // Make sure this matches the one in your Google Console
   );
 
   try {
